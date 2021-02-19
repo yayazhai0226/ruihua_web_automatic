@@ -3,12 +3,12 @@ from time import sleep
 
 url = 'http://192.168.10.126:8040/#/login'
 
-#创建Chrome浏览器对象，这会在电脑上在打开一个浏览器窗口
+#创打开浏览器
 driver = webdriver.Chrome(executable_path ="../common/chromedriver.exe")
 #隐式等待：对全局进行控制
 driver.implicitly_wait(6)
 
-#通过浏览器向服务器发送URL请求
+#访问
 driver.get(url)
 #刷新
 driver.refresh()
