@@ -21,7 +21,7 @@ def find_element(driver , locator , timeout=10):
     '''
     return WebDriverWait(driver , 10).until(lambda s: s.find_element(*locator))
 
-def assert_element_exist(driver , locator , timeout=10):
+def assert_element_exist(locator , timeout=10):
     '''
         方法名：判断元素是否存在
         参数:
@@ -45,3 +45,28 @@ def assert_element_exist(driver , locator , timeout=10):
         return True
     except:
         return False
+
+def hover(locator):
+    '''
+        方法名：鼠标悬停
+        参数:
+            driver:浏览器的句柄
+            locator:元素的定位方式,格式:
+                （'id','xxxx'）
+                （'xpath','xxxx'）
+                （'name','xxxx'）
+                （'class name','xxxx'）
+                （'css selector','xxxx'）
+                （'link text','xxxx'）
+                （'partial link text','xxxx'）
+                （'id','xxxx'）
+        返回值：
+            -找到元素：True
+            -没找到元素：False
+    '''
+    try:
+        element = find_element(locator)
+        ActionChains(driver).move_to_element(element).perform()
+        print('找到元素并悬停')    
+    except:
+        print('未找到元素')    
