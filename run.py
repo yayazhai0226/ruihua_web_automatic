@@ -1,4 +1,10 @@
+import os
 import pytest
 
 if __name__ == '__main__':
-    pytest.main(['-s' , '-v','./testcase/test_02spd2_6.py'])    #-s：小点；-v展示用例名称；y
+    #运行测试用例
+    pytest.main(['./testcase/test_case.py', '--alluredir', './result'])
+    # #结果整理成报告html
+    os.system('allure generate ./result -o ./report --clean')
+    #打开网页报告
+    os.system('allure open -h 127.0.0.1 -p 10086 ./report')

@@ -1,0 +1,95 @@
+{
+  "uid" : "b6bb5837972778c2",
+  "name" : "test_001",
+  "fullName" : "testcase.test_case.Test_Cases#test_001",
+  "historyId" : "9823d79cf358f1153f902bcba3671a4c",
+  "time" : {
+    "start" : 1614153069144,
+    "stop" : 1614153069144,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_Test_Cases",
+    "time" : {
+      "start" : 1614153044305,
+      "stop" : 1614153048183,
+      "duration" : 3878
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_Test_Cases::0",
+    "time" : {
+      "start" : 1614153069152,
+      "stop" : 1614153069152,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Cases"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-ACNE1LV"
+  }, {
+    "name" : "thread",
+    "value" : "5576-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e26fd954efaac8e2",
+      "status" : "broken",
+      "statusDetails" : "TypeError: test_001() takes 0 positional arguments but 1 was given",
+      "time" : {
+        "start" : 1614153015933,
+        "stop" : 1614153015933,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b6bb5837972778c2.json",
+  "parameterValues" : [ ]
+}
