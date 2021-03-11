@@ -1,0 +1,18 @@
+#维护页面地址
+平台登录: http://47.94.220.173/#/show
+平台首页: http://47.94.220.173/#/showHome
+bsp登录: http://47.94.220.173/bsp/#/login
+bsp首页: http://47.94.220.173/bsp/#/home/dataPanel
+医院信息: http://47.94.220.173/bsp/#/home/baseManage/hospData/hospDataAdd
+院区管理: http://47.94.220.173/bsp/#/home/baseManage/areaData/areaDataFind
+科室管理: http://47.94.220.173/bsp/#/home/baseManage/departmentData/departmentDataFind
+人员信息: http://47.94.220.173/bsp/#/home/baseManage/staffData/staffDataFind
+库房管理: http://47.94.220.173/bsp/#/home/baseManage/storehouseData/storehouseFind
+手术间管理: http://47.94.220.173/bsp/#/home/baseManage/operateRoomInfo/operateRoomInfoFind
+区域管理: http://47.94.220.173/bsp/#/home/baseManage/regionData
+系统信息: http://47.94.220.173/bsp/#/home/systemManage/systemInfo/infoFind
+系统权限: http://47.94.220.173/bsp/#/home/systemManage/func/funcFind
+角色管理: http://47.94.220.173/bsp/#/home/systemManage/roles/rolesFind
+账户管理: http://47.94.220.173/bsp/#/home/systemManage/accounts/accountsFind
+账户组管理: http://47.94.220.173/bsp/#/home/systemManage/accountGroups/accountGroupsFind
+登录配置: http://47.94.220.173/bsp/#/home/systemManage/loginConfig/loginConfigFind
